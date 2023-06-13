@@ -1,0 +1,71 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+{
+define var (number1, number2, sum);
+print "enter 2 numbers";
+scan UserInput var (number1, number2);
+sum = number1 + number2;
+print sum
+}
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+{
+define var (anyNumber, quotient);
+quotient = anyNumber/2;
+print "enter any number to check if it is even or odd.";
+scan UserInput var (anyNumber);
+
+if
+quotient = int
+print "[UserInput] is even.";
+
+else 
+print "[UserInput] is odd.";
+}
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.   
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+{
+define var (number1, number2, number3, number4, number5, sum, avg, min, max);
+sum = number1  + number2 + number3 + number4 + number5;
+print "please enter any 5 numbers separated by commas.";
+scan UserInput var (number1, number2, number3, number4, number 5);
+avg = sum/5;
+
+{
+if (number1 < number2)
+max = number2
+else
+max = number1
+if (number3 > max)
+max = number3
+if (number4) > max
+max = number4
+if (number5 > max)
+max = number5
+
+if (number1 > number2)
+min = number2
+else
+min = number1
+if (number3 < min)
+min = number3
+if (number4 < min)
+min = number4
+if (number5 < min)
+min = number5
+}
+
+print "the average of the 5 numbers is [avg]. the smallest of the 5 numbers is [min]. the largest of the 5 numbers is [max].";
+
+
+-- END --
